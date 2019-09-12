@@ -1,8 +1,9 @@
 post http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1ZDc4OWYwMTU2OGQ2MDU3YTQyODVmODMiLCJpYXQiOjE1NjgxOTY3Mjd9.BioLZRY6X9G4Jes7fnzbMWUSkjS76-dJeSpCNXXxbkI
 
 {
-    "title": "testi",
+    "title": "test4",
     "author": "helu",
     "url": "www.test.fi",
     "likes": 1
